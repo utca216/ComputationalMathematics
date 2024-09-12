@@ -1,0 +1,19 @@
+For float16(нормализированного) - 0.000061
+Для float32  1.19209×10^−7 = 0.000000119209
+
+N for machine epsilon: 
+float16 -8(not supposed to?)
+float32 -8
+float64(double) -16
+float80(long double) -20
+
+N for machine zero
+float32 -46
+Float64 -324
+
+N for machine Infinity
+float32 -39
+Float64 -309
+
+
+ 
