@@ -9,6 +9,10 @@ int main(){
 	int y=0, nk, inter;
 	
 	cin>>Ip>>nk;
+	if(Ip<0){
+		Ip=Ip*-1;
+		cout<<"-";
+	}	
 		
 	inter=Ip;
 	Ip=Ip-inter;
@@ -32,8 +36,9 @@ int main(){
 				break;
 			}	
 		}
-		cout<<Ip<<endl;
 	}
+	
+	
 	for(int i=aswint.size()-1;i>=0;i--){
 		cout<<aswint[i];
 		}
