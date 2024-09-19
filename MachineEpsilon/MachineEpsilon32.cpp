@@ -7,6 +7,7 @@ int main()
 	while(1+E!=1){
 		n++;
 		E=E/10;
+		cout<<E<<endl;
 		}
 	
 	cout<<n;	 
