@@ -9,7 +9,7 @@ int main(){
 	int y=0, nk, inter;
 	
 	cin>>Ip>>nk;
-	if(Ip<0){
+	if(Ip<0){//если отрицательное число
 		Ip=Ip*-1;
 		cout<<"-";
 	}	
@@ -23,7 +23,7 @@ int main(){
 			aswint.push_back(0);
 		inter=inter/2;
 	}
-	while (true){
+	while (true){//находим дробную часть в binary
 		y++;
 		Ip=Ip*2;
 		if(Ip>=1){
@@ -39,11 +39,11 @@ int main(){
 	}
 	
 	
-	for(int i=aswint.size()-1;i>=0;i--){
+	for(int i=aswint.size()-1;i>=0;i--){//выводим целую часть
 		cout<<aswint[i];
 		}
 	cout<<".";
-	for(int i=0;i<aswfloat.size();i++){
+	for(int i=0;i<aswfloat.size();i++){//выводим дробную
 		cout<<aswfloat[i];
 		}				
 }
